@@ -1,0 +1,31 @@
+\begin{tabular}{lllcccccc}
+    \hline
+	\multicolumn{9}{c}{Mean-variance utility investor -- Neural networks}\\\hline
+	&& \multicolumn{6}{c}{$n$}\\\cline{4-9}
+&Models&Input   & 2  & 3      & 4       & 5       & 7 & 10 \\
+\hline
+CER (\%) & Benchmark (EH) &  & 4.14 & 4.35 & 4.42 & 4.24 & 4.08 & 3.78 \\
+    \cline{2-9}
+ & Neural Net & $y$ & $3.78$ & $4.08$ & $4.25$ & $4.08$ & $4.02$ & \hspace{0.2cm} $\underset{(0.982)}{3.79}^{}$ \\
+ &  & $\Delta y$ & $4.06$ & \hspace{0.2cm} $\underset{(0.305)}{4.54}^{}$ & \hspace{0.2cm} $\underset{(0.113)}{4.76}^{}$ & \hspace{0.2cm} $\underset{(0.071)}{4.68}^{*}$ & \hspace{0.2cm} $\underset{(0.057)}{4.56}^{*}$ & \hspace{0.2cm} $\underset{(0.052)}{4.25}^{*}$ \\
+ &  & $f$ & $3.93$ & $4.25$ & $4.33$ & $4.16$ & $4.02$ & $3.71$ \\
+ &  & $\Delta f$ & $4.10$ & \hspace{0.2cm} $\underset{(0.590)}{4.44}^{}$ & \hspace{0.2cm} $\underset{(0.227)}{4.66}^{}$ & \hspace{0.2cm} $\underset{(0.161)}{4.56}^{}$ & \hspace{0.2cm} $\underset{(0.153)}{4.44}^{}$ & \hspace{0.2cm} $\underset{(0.125)}{4.17}^{}$ \\
+    \cline{2-9}
+ & Neural Net & $Y$ & $3.85$ & $4.20$ & $4.25$ & $4.16$ & $4.02$ & \hspace{0.2cm} $\underset{(0.781)}{3.85}^{}$ \\
+ &  & $\Delta Y$ & $4.08$ & \hspace{0.2cm} $\underset{(0.062)}{4.73}^{*}$ & \hspace{0.2cm} $\underset{(0.019)}{4.96}^{**}$ & \hspace{0.2cm} $\underset{(0.007)}{4.91}^{***}$ & \hspace{0.2cm} $\underset{(0.004)}{4.80}^{***}$ & \hspace{0.2cm} $\underset{(0.003)}{4.44}^{***}$ \\
+ &  & Cochrane and Piazzesi & $3.99$ & $4.16$ & $4.24$ & $3.99$ & $3.82$ & $3.59$ \\
+ &  & Diebold and Li & $3.74$ & $3.96$ & $4.10$ & $3.97$ & $3.92$ & $3.75$ \\
+    \hline
+SR & Benchmark (EH) &  & 0.577 & 0.549 & 0.566 & 0.517 & 0.471 & 0.376 \\
+    \cline{2-9}
+ & Neural Net & $y$ & 0.437 & 0.465 & 0.515 & 0.466 & 0.450 & 0.371 \\
+ &  & $\Delta y$ & 0.547 & 0.543 & 0.554 & 0.512 & 0.489 & 0.427 \\
+ &  & $f$ & 0.473 & 0.533 & 0.579 & 0.541 & 0.501 & 0.390 \\
+ &  & $\Delta f$ & 0.550 & 0.521 & 0.530 & 0.482 & 0.442 & 0.374 \\
+    \cline{2-9}
+ & Neural Net & $Y$ & 0.457 & 0.494 & 0.478 & 0.446 & 0.402 & 0.355 \\
+ &  & $\Delta Y$ & 0.561 & 0.595 & 0.598 & 0.568 & 0.557 & 0.502 \\
+ &  & Cochrane and Piazzesi & 0.511 & 0.487 & 0.486 & 0.393 & 0.315 & 0.242 \\
+ &  & Diebold and Li & 0.419 & 0.405 & 0.425 & 0.373 & 0.349 & 0.293 \\
+    \hline
+    \end{tabular}

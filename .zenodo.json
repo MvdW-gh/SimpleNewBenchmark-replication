@@ -1,0 +1,15 @@
+{
+  "title": "Reproducibility package: A Simple New Benchmark for Forecasting Bond Risk Premia",
+  "description": "Data and code to reproduce all tables and figures of the paper \"A Simple New Benchmark for Forecasting Bond Risk Premia\" by Tobias Hoogteijling, Martin Martens and Michel van der Wel (International Journal of Forecasting). See README.md for instructions.",
+  "upload_type": "software",
+  "creators": [
+    {"name": "Hoogteijling, Tobias", "affiliation": "Robeco Quantitative Investing"},
+    {"name": "Martens, Martin", "affiliation": "Robeco Quantitative Investing"},
+    {"name": "van der Wel, Michel", "affiliation": "Erasmus University Rotterdam"}
+  ],
+  "license": "MIT",
+  "keywords": ["bond risk premia", "yield curve", "forecasting", "principal components", "machine learning", "reproducibility"],
+  "related_identifiers": [
+    {"relation": "isSupplementTo", "identifier": "https://github.com/MvdW-gh/SimpleNewBenchmark-replication", "scheme": "url"}
+  ]
+}

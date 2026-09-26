@@ -1,0 +1,26 @@
+# Environment for replicating "A Simple New Benchmark for Forecasting Bond Risk Premia".
+# Python 3.10 matches the original notebook (linear models). TensorFlow 2.17 / Keras 3.9 match Databricks
+# Runtime 16.4 LTS ML, on which the neural networks were estimated. Keras 3 matters: in Keras 2,
+# regularizers.l1_l2(L) silently adds an L2 penalty of 0.01; in Keras 3 it does not.
+name: simplenewbenchmark
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy=1.26
+  - pandas=1.5.3
+  - scipy=1.11
+  # OpenBLAS rather than the newest MKL: scipy 1.11 crashes on Windows with MKL 2026 (missing LAPACK symbol)
+  - libblas=*=*openblas
+  - statsmodels=0.14
+  - scikit-learn=1.3
+  - matplotlib=3.8
+  - openpyxl
+  - xlsxwriter
+  - joblib
+  - jupyterlab
+  - ipykernel
+  - pip
+  - pip:
+      - tensorflow==2.17.0
+      - keras==3.9.0

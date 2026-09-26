@@ -1,0 +1,21 @@
+{
+  "name": "hanson_12m",
+  "methods": [
+    "Hanson Lucca Wright"
+  ],
+  "holding_period": 12,
+  "lookback": 12,
+  "window": "expanding",
+  "T_in": 221,
+  "begin_date": "1971-08",
+  "end_date": "2018-12",
+  "no_macro": false,
+  "num_simulations": 5000,
+  "num_nns": 100,
+  "num_best": 10,
+  "n_jobs": -1,
+  "fix_pc_nn_bug": false,
+  "seed": 0,
+  "runtime_seconds": 2.8,
+  "finished": "2026-09-23T11:56:33"
+}

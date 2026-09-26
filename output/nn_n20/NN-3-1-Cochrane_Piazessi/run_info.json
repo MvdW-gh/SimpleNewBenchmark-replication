@@ -1,0 +1,20 @@
+{
+  "name": "nn_n20/NN-3-1-Cochrane_Piazessi",
+  "methods": [
+    "NN-3-1-Cochrane Piazessi"
+  ],
+  "holding_period": 12,
+  "lookback": 12,
+  "window": "expanding",
+  "T_in": 221,
+  "begin_date": "1971-08",
+  "end_date": "2018-12",
+  "no_macro": false,
+  "num_simulations": 5000,
+  "num_nns": 20,
+  "num_best": 10,
+  "n_jobs": 18,
+  "seed": 0,
+  "runtime_seconds": 4097.9,
+  "finished": "2026-09-24T01:27:02"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "holding_6",
+  "methods": [
+    "Yields",
+    "Yield changes",
+    "Forwards",
+    "Forward changes",
+    "Yields + macro (revised)",
+    "Yield changes + macro (revised)",
+    "Forwards + macro (revised)",
+    "Forward changes + macro (revised)"
+  ],
+  "holding_period": 6,
+  "lookback": 12,
+  "window": "expanding",
+  "T_in": 221,
+  "begin_date": "1971-08",
+  "end_date": "2018-12",
+  "no_macro": false,
+  "num_simulations": 5000,
+  "num_nns": 100,
+  "num_best": 10,
+  "n_jobs": -1,
+  "fix_pc_nn_bug": false,
+  "seed": 0,
+  "runtime_seconds": 280.3,
+  "finished": "2026-09-23T12:08:52"
+}
