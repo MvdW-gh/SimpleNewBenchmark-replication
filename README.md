@@ -2,6 +2,10 @@
 
 Tobias Hoogteijling, Martin Martens and Michel van der Wel — *International Journal of Forecasting*
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23065218.svg)](https://doi.org/10.5281/zenodo.23065218)
+
+Archived on Zenodo: https://doi.org/10.5281/zenodo.23065218 (version v1.0).
+
 This package contains all data and code to reproduce the tables and figures of the paper and its online appendix.
 The quickest check takes a few minutes: open `replicate.ipynb`, which rebuilds every table and figure from the
 stored results and shows the number printed in the paper next to each reproduced number.
